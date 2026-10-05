@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04BC1DADACA61F4E648C68E7 /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2504208A9399E3AABABAE548 /* Routes.swift */; };
+		094C567346115FC650923B87 /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADB1151B889BAE36C04DBAB /* Providers.swift */; };
+		0CE2280F6A0103272B330F8F /* RafflesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E0106E6531FD9644227EA7 /* RafflesScreen.swift */; };
+		0EA639A86B8236DCDF91B480 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA823BF445E82AE4300C76F9 /* Push.swift */; };
+		0F60AA832551C38284E83ABE /* SmarticoDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3B7B489668422D377F3FC1 /* SmarticoDemoApp.swift */; };
+		147C23177849045FC0C2C3C0 /* SmarticoPublicAPI in Frameworks */ = {isa = PBXBuildFile; productRef = 36E16FC9344C5FC26D9E64E7 /* SmarticoPublicAPI */; };
+		1827EB0E8851945EEA22EAFA /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C602340D8E7A59C7962C94F /* LoginScreen.swift */; };
+		18638C99EDBDAC88598770B1 /* AvifImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DA9A05B6570460B4DEBEBE /* AvifImage.swift */; };
+		188E0F47F1BF5F52C4489BA7 /* AvatarPickerScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C32FE3F0896E7E182DD38DA /* AvatarPickerScreen.swift */; };
+		1A5DD67E707314EBD67779D8 /* DrawDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C9F7E5365AA3E770348C2E4 /* DrawDetailScreen.swift */; };
+		29DCE4779332141438FA8E99 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04776BC3F2D6C9345851FC83 /* Auth.swift */; };
+		3056FE45D578CEF93B3F1C23 /* InboxScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953CAB99A69BA4C01588894A /* InboxScreen.swift */; };
+		36BA2B010154BF4189F59290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F26C250A9D031FEAB896EC8 /* Assets.xcassets */; };
+		464D8817AF2E1A45E2063775 /* LeaderboardScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01BFBFE2BBCE197C4C1A1536 /* LeaderboardScreen.swift */; };
+		54A3273B8F0997B8CB085A4D /* ProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACA1EC48EDA70AC3AFDA245 /* ProfileScreen.swift */; };
+		5709A359FC36A973912CB5B8 /* VipScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD7348DF7C4B52AE796C841 /* VipScreen.swift */; };
+		653D6C33FE1D7D3E3433AF24 /* LevelsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7716E39EB52EF282FCAE6899 /* LevelsScreen.swift */; };
+		693DCE35A1C2E68000398EF1 /* WidgetScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B38187B589802C207A532C /* WidgetScreen.swift */; };
+		6AA398543A6A925F45AA2749 /* StoreScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB05E4DEB84E303F542B1CD /* StoreScreen.swift */; };
+		75ACB467D31B7055F1D22003 /* DeepLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E1E84CBAC35056AE1B4082 /* DeepLinks.swift */; };
+		760BD292DBF8C3E01758F830 /* Economy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C722AC655E8AE2A2C6B515 /* Economy.swift */; };
+		8182E9C073E6FB8B7E87D7C5 /* LobbyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C3EC0F680E3E015DA085DA /* LobbyScreen.swift */; };
+		8575996E219E92383C202E7F /* RaffleDrawsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DFF6ED50F55DBCD405777E /* RaffleDrawsScreen.swift */; };
+		913728EEA01737625C7E25A1 /* MissionsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE8FB607E718ADA9C8DE1F7 /* MissionsScreen.swift */; };
+		9166E42C9E9C3F27F655E648 /* Sdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18EB920F2E53234C13921E /* Sdk.swift */; };
+		95523FB602003ED6E1CC3695 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83221001BE65048852F95BBA /* Catalog.swift */; };
+		9994D54B43A7016659689971 /* AppNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446299134ACB8BFDD0E3AED5 /* AppNav.swift */; };
+		A10CDD759ACB28E79DEFF8C8 /* NameDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F3BDF01B5F538311299FE5 /* NameDialog.swift */; };
+		ADE6B1EBC371E8400630EB80 /* MiniGamesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17020105097AB284A9C05A4 /* MiniGamesScreen.swift */; };
+		AE09ACB37E12E9AFDF9319DC /* TournamentsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75EFB1AF00BE43D9150A10C /* TournamentsScreen.swift */; };
+		B2FACA76ADBB28FF2A654045 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 5165C0C1A0C95E31A73E1ED1 /* GoogleSignIn */; };
+		B7F1C957E649DC14FDF97D17 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = C534CBD7CDFD6B5FC252667F /* Store.swift */; };
+		CEC6C84D0C626CEE64ABFDC7 /* TournamentDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5C48637495CF0B7723C1FD /* TournamentDetailScreen.swift */; };
+		DD0C8D972D010D3A9814B37D /* JackpotsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639E049734422B6048CBABB0 /* JackpotsScreen.swift */; };
+		E8C97B3E3CFFBC11318DB03E /* GameScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12E999363B84E93E5C0A702 /* GameScreen.swift */; };
+		ECCD5FDF4B275A5C69B6FF5D /* CashierScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA12383B45CCE0A9CE2D12B /* CashierScreen.swift */; };
+		EF12321576AB9F8BDFF2D6D2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4322F042780D6332375B9B /* Theme.swift */; };
+		FA7613EDFE9DE72588FBF9A8 /* PopupHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 328BB8016A14676AB38E5E77 /* PopupHost.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01BFBFE2BBCE197C4C1A1536 /* LeaderboardScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardScreen.swift; sourceTree = "<group>"; };
+		03E0106E6531FD9644227EA7 /* RafflesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RafflesScreen.swift; sourceTree = "<group>"; };
+		04776BC3F2D6C9345851FC83 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		0C9F7E5365AA3E770348C2E4 /* DrawDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawDetailScreen.swift; sourceTree = "<group>"; };
+		1A18EB920F2E53234C13921E /* Sdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sdk.swift; sourceTree = "<group>"; };
+		1C602340D8E7A59C7962C94F /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		2504208A9399E3AABABAE548 /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		328BB8016A14676AB38E5E77 /* PopupHost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupHost.swift; sourceTree = "<group>"; };
+		3C32FE3F0896E7E182DD38DA /* AvatarPickerScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerScreen.swift; sourceTree = "<group>"; };
+		446299134ACB8BFDD0E3AED5 /* AppNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNav.swift; sourceTree = "<group>"; };
+		4ACA1EC48EDA70AC3AFDA245 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
+		4ADB1151B889BAE36C04DBAB /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
+		4BD7348DF7C4B52AE796C841 /* VipScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VipScreen.swift; sourceTree = "<group>"; };
+		5FA12383B45CCE0A9CE2D12B /* CashierScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashierScreen.swift; sourceTree = "<group>"; };
+		639E049734422B6048CBABB0 /* JackpotsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JackpotsScreen.swift; sourceTree = "<group>"; };
+		69C3EC0F680E3E015DA085DA /* LobbyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LobbyScreen.swift; sourceTree = "<group>"; };
+		6E4322F042780D6332375B9B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		7716E39EB52EF282FCAE6899 /* LevelsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsScreen.swift; sourceTree = "<group>"; };
+		83221001BE65048852F95BBA /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		85DFF6ED50F55DBCD405777E /* RaffleDrawsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaffleDrawsScreen.swift; sourceTree = "<group>"; };
+		8F26C250A9D031FEAB896EC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94E1E84CBAC35056AE1B4082 /* DeepLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinks.swift; sourceTree = "<group>"; };
+		953CAB99A69BA4C01588894A /* InboxScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxScreen.swift; sourceTree = "<group>"; };
+		95F3BDF01B5F538311299FE5 /* NameDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameDialog.swift; sourceTree = "<group>"; };
+		AA823BF445E82AE4300C76F9 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		AFB05E4DEB84E303F542B1CD /* StoreScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreScreen.swift; sourceTree = "<group>"; };
+		B12E999363B84E93E5C0A702 /* GameScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScreen.swift; sourceTree = "<group>"; };
+		B2DA9A05B6570460B4DEBEBE /* AvifImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvifImage.swift; sourceTree = "<group>"; };
+		B7B38187B589802C207A532C /* WidgetScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetScreen.swift; sourceTree = "<group>"; };
+		C534CBD7CDFD6B5FC252667F /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		CB5C48637495CF0B7723C1FD /* TournamentDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentDetailScreen.swift; sourceTree = "<group>"; };
+		CC3B7B489668422D377F3FC1 /* SmarticoDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmarticoDemoApp.swift; sourceTree = "<group>"; };
+		E17020105097AB284A9C05A4 /* MiniGamesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniGamesScreen.swift; sourceTree = "<group>"; };
+		F177C8CBD24F08A4CEE8266B /* SmarticoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmarticoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75EFB1AF00BE43D9150A10C /* TournamentsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TournamentsScreen.swift; sourceTree = "<group>"; };
+		F7C722AC655E8AE2A2C6B515 /* Economy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Economy.swift; sourceTree = "<group>"; };
+		FBE8FB607E718ADA9C8DE1F7 /* MissionsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionsScreen.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE6B161D4BBBD1FB6A849118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				147C23177849045FC0C2C3C0 /* SmarticoPublicAPI in Frameworks */,
+				B2FACA76ADBB28FF2A654045 /* GoogleSignIn in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074EC68AA6C6F951B1EC16BA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				CC3B7B489668422D377F3FC1 /* SmarticoDemoApp.swift */,
+				6E4322F042780D6332375B9B /* Theme.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2F2E33CC47C1C06F1E38F501 /* SmarticoDemo */ = {
+			isa = PBXGroup;
+			children = (
+				074EC68AA6C6F951B1EC16BA /* App */,
+				87B30D00714994C26F074DCA /* Casino */,
+				ED1055D177FCE84C6B7A745A /* Integration */,
+				481EAED0F3B372D577D7E32F /* Nav */,
+				D7874283AFFD6CDB15BCB68A /* Resources */,
+				AF277FAD048377BA11B3306B /* Screens */,
+			);
+			path = SmarticoDemo;
+			sourceTree = "<group>";
+		};
+		481EAED0F3B372D577D7E32F /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				446299134ACB8BFDD0E3AED5 /* AppNav.swift */,
+				2504208A9399E3AABABAE548 /* Routes.swift */,
+			);
+			path = Nav;
+			sourceTree = "<group>";
+		};
+		87B30D00714994C26F074DCA /* Casino */ = {
+			isa = PBXGroup;
+			children = (
+				B2DA9A05B6570460B4DEBEBE /* AvifImage.swift */,
+				83221001BE65048852F95BBA /* Catalog.swift */,
+			);
+			path = Casino;
+			sourceTree = "<group>";
+		};
+		889AEA9FF48ADD3D9EC98853 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F177C8CBD24F08A4CEE8266B /* SmarticoDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC1D4C2A9CA9553714C9D0FF = {
+			isa = PBXGroup;
+			children = (
+				2F2E33CC47C1C06F1E38F501 /* SmarticoDemo */,
+				889AEA9FF48ADD3D9EC98853 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF277FAD048377BA11B3306B /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				3C32FE3F0896E7E182DD38DA /* AvatarPickerScreen.swift */,
+				5FA12383B45CCE0A9CE2D12B /* CashierScreen.swift */,
+				0C9F7E5365AA3E770348C2E4 /* DrawDetailScreen.swift */,
+				B12E999363B84E93E5C0A702 /* GameScreen.swift */,
+				953CAB99A69BA4C01588894A /* InboxScreen.swift */,
+				639E049734422B6048CBABB0 /* JackpotsScreen.swift */,
+				01BFBFE2BBCE197C4C1A1536 /* LeaderboardScreen.swift */,
+				7716E39EB52EF282FCAE6899 /* LevelsScreen.swift */,
+				69C3EC0F680E3E015DA085DA /* LobbyScreen.swift */,
+				1C602340D8E7A59C7962C94F /* LoginScreen.swift */,
+				E17020105097AB284A9C05A4 /* MiniGamesScreen.swift */,
+				FBE8FB607E718ADA9C8DE1F7 /* MissionsScreen.swift */,
+				95F3BDF01B5F538311299FE5 /* NameDialog.swift */,
+				4ACA1EC48EDA70AC3AFDA245 /* ProfileScreen.swift */,
+				85DFF6ED50F55DBCD405777E /* RaffleDrawsScreen.swift */,
+				03E0106E6531FD9644227EA7 /* RafflesScreen.swift */,
+				AFB05E4DEB84E303F542B1CD /* StoreScreen.swift */,
+				CB5C48637495CF0B7723C1FD /* TournamentDetailScreen.swift */,
+				F75EFB1AF00BE43D9150A10C /* TournamentsScreen.swift */,
+				4BD7348DF7C4B52AE796C841 /* VipScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		D7874283AFFD6CDB15BCB68A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8F26C250A9D031FEAB896EC8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ED1055D177FCE84C6B7A745A /* Integration */ = {
+			isa = PBXGroup;
+			children = (
+				04776BC3F2D6C9345851FC83 /* Auth.swift */,
+				94E1E84CBAC35056AE1B4082 /* DeepLinks.swift */,
+				F7C722AC655E8AE2A2C6B515 /* Economy.swift */,
+				328BB8016A14676AB38E5E77 /* PopupHost.swift */,
+				4ADB1151B889BAE36C04DBAB /* Providers.swift */,
+				AA823BF445E82AE4300C76F9 /* Push.swift */,
+				1A18EB920F2E53234C13921E /* Sdk.swift */,
+				C534CBD7CDFD6B5FC252667F /* Store.swift */,
+				B7B38187B589802C207A532C /* WidgetScreen.swift */,
+			);
+			path = Integration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36D0F02B51819455EC3BFD12 /* SmarticoDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 753AFC3B989684AAADCF8D0E /* Build configuration list for PBXNativeTarget "SmarticoDemo" */;
+			buildPhases = (
+				06F6BDA0C09EAEDAD8549016 /* Sources */,
+				BCB48CB906C82E7C090C3F55 /* Resources */,
+				AE6B161D4BBBD1FB6A849118 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmarticoDemo;
+			packageProductDependencies = (
+				36E16FC9344C5FC26D9E64E7 /* SmarticoPublicAPI */,
+				5165C0C1A0C95E31A73E1ED1 /* GoogleSignIn */,
+			);
+			productName = SmarticoDemo;
+			productReference = F177C8CBD24F08A4CEE8266B /* SmarticoDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76554A0CE19E1EE4B893422C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					36D0F02B51819455EC3BFD12 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F57267CD5C9F4DE111E9D5D /* Build configuration list for PBXProject "SmarticoDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = AC1D4C2A9CA9553714C9D0FF;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				966118404BD57D9D08B4A3CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				D7FC029B0454A684CD2EFDC5 /* XCRemoteSwiftPackageReference "smartico-swift-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 889AEA9FF48ADD3D9EC98853 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36D0F02B51819455EC3BFD12 /* SmarticoDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB48CB906C82E7C090C3F55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36BA2B010154BF4189F59290 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F6BDA0C09EAEDAD8549016 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9994D54B43A7016659689971 /* AppNav.swift in Sources */,
+				29DCE4779332141438FA8E99 /* Auth.swift in Sources */,
+				188E0F47F1BF5F52C4489BA7 /* AvatarPickerScreen.swift in Sources */,
+				18638C99EDBDAC88598770B1 /* AvifImage.swift in Sources */,
+				ECCD5FDF4B275A5C69B6FF5D /* CashierScreen.swift in Sources */,
+				95523FB602003ED6E1CC3695 /* Catalog.swift in Sources */,
+				75ACB467D31B7055F1D22003 /* DeepLinks.swift in Sources */,
+				1A5DD67E707314EBD67779D8 /* DrawDetailScreen.swift in Sources */,
+				760BD292DBF8C3E01758F830 /* Economy.swift in Sources */,
+				E8C97B3E3CFFBC11318DB03E /* GameScreen.swift in Sources */,
+				3056FE45D578CEF93B3F1C23 /* InboxScreen.swift in Sources */,
+				DD0C8D972D010D3A9814B37D /* JackpotsScreen.swift in Sources */,
+				464D8817AF2E1A45E2063775 /* LeaderboardScreen.swift in Sources */,
+				653D6C33FE1D7D3E3433AF24 /* LevelsScreen.swift in Sources */,
+				8182E9C073E6FB8B7E87D7C5 /* LobbyScreen.swift in Sources */,
+				1827EB0E8851945EEA22EAFA /* LoginScreen.swift in Sources */,
+				ADE6B1EBC371E8400630EB80 /* MiniGamesScreen.swift in Sources */,
+				913728EEA01737625C7E25A1 /* MissionsScreen.swift in Sources */,
+				A10CDD759ACB28E79DEFF8C8 /* NameDialog.swift in Sources */,
+				FA7613EDFE9DE72588FBF9A8 /* PopupHost.swift in Sources */,
+				54A3273B8F0997B8CB085A4D /* ProfileScreen.swift in Sources */,
+				094C567346115FC650923B87 /* Providers.swift in Sources */,
+				0EA639A86B8236DCDF91B480 /* Push.swift in Sources */,
+				8575996E219E92383C202E7F /* RaffleDrawsScreen.swift in Sources */,
+				0CE2280F6A0103272B330F8F /* RafflesScreen.swift in Sources */,
+				04BC1DADACA61F4E648C68E7 /* Routes.swift in Sources */,
+				9166E42C9E9C3F27F655E648 /* Sdk.swift in Sources */,
+				0F60AA832551C38284E83ABE /* SmarticoDemoApp.swift in Sources */,
+				B7F1C957E649DC14FDF97D17 /* Store.swift in Sources */,
+				6AA398543A6A925F45AA2749 /* StoreScreen.swift in Sources */,
+				EF12321576AB9F8BDFF2D6D2 /* Theme.swift in Sources */,
+				CEC6C84D0C626CEE64ABFDC7 /* TournamentDetailScreen.swift in Sources */,
+				AE09ACB37E12E9AFDF9319DC /* TournamentsScreen.swift in Sources */,
+				5709A359FC36A973912CB5B8 /* VipScreen.swift in Sources */,
+				693DCE35A1C2E68000398EF1 /* WidgetScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1E408DFFFA7F64C216558ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6D05E314D12E106CA60D847B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = SmarticoDemo/Resources/SmarticoDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3YA56WFKC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmarticoDemo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.smartico.rnexpo;
+				PRODUCT_NAME = SmarticoDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D2F6E83237209C74CA8FC5AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]" = SmarticoDemo/Resources/SmarticoDemo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphonesimulator*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3YA56WFKC;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SmarticoDemo/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ai.smartico.rnexpo;
+				PRODUCT_NAME = SmarticoDemo;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EB98605FEA3D19B516812014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F57267CD5C9F4DE111E9D5D /* Build configuration list for PBXProject "SmarticoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB98605FEA3D19B516812014 /* Debug */,
+				1E408DFFFA7F64C216558ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		753AFC3B989684AAADCF8D0E /* Build configuration list for PBXNativeTarget "SmarticoDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D05E314D12E106CA60D847B /* Debug */,
+				D2F6E83237209C74CA8FC5AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		966118404BD57D9D08B4A3CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		D7FC029B0454A684CD2EFDC5 /* XCRemoteSwiftPackageReference "smartico-swift-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/smarticoai/smartico-swift-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		36E16FC9344C5FC26D9E64E7 /* SmarticoPublicAPI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7FC029B0454A684CD2EFDC5 /* XCRemoteSwiftPackageReference "smartico-swift-sdk" */;
+			productName = SmarticoPublicAPI;
+		};
+		5165C0C1A0C95E31A73E1ED1 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 966118404BD57D9D08B4A3CE /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 76554A0CE19E1EE4B893422C /* Project object */;
+}

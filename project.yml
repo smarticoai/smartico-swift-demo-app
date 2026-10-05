@@ -1,0 +1,93 @@
+# XcodeGen spec for the Smartico iOS demo ("Fakebet").
+# Regenerate the committed project after editing: xcodegen generate
+name: SmarticoDemo
+
+options:
+  bundleIdPrefix: ai.smartico
+  deploymentTarget:
+    iOS: "16.0"
+  createIntermediateGroups: true
+  # The Swift packages are resolved by Xcode; nothing to pre-fetch here.
+  developmentLanguage: en
+
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+
+packages:
+  # The SDK, resolved from GitHub by tag like any consumer would. To work on
+  # the SDK itself, replace the two lines with `path: ../smartico-swift-sdk`
+  # and run `xcodegen generate` — edits are then picked up on the next build.
+  SmarticoPublicAPI:
+    url: https://github.com/smarticoai/smartico-swift-sdk
+    from: 0.1.0
+  GoogleSignIn:
+    url: https://github.com/google/GoogleSignIn-iOS
+    from: 8.0.0
+
+targets:
+  SmarticoDemo:
+    type: application
+    platform: iOS
+    deploymentTarget: "16.0"
+    sources:
+      - path: SmarticoDemo
+        excludes:
+          - "Resources/Info.plist"
+          - "Resources/SmarticoDemo.entitlements"
+    dependencies:
+      - package: SmarticoPublicAPI
+      - package: GoogleSignIn
+        product: GoogleSignIn
+    info:
+      path: SmarticoDemo/Resources/Info.plist
+      properties:
+        CFBundleDisplayName: Fakebet
+        CFBundleShortVersionString: "1.0"
+        CFBundleVersion: "1"
+        LSRequiresIPhoneOS: true
+        UILaunchScreen:
+          UIColorName: LaunchBackground
+        UIUserInterfaceStyle: Dark
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+        UIApplicationSceneManifest:
+          UIApplicationSupportsMultipleScenes: false
+        # Remote pushes wake the app for data-only (content-available) messages.
+        UIBackgroundModes:
+          - remote-notification
+        CFBundleURLTypes:
+          # Google sign-in redirect: the iOS client id, reversed.
+          - CFBundleURLName: google
+            CFBundleURLSchemes:
+              - com.googleusercontent.apps.259966498344-e797rqpem16mg72kelqp3bugs49k53vh
+          # Deep links from outside the app: smartico-demo://dp?dp=<url-encoded dp>
+          - CFBundleURLName: ai.smartico.rnexpo.dp
+            CFBundleURLSchemes:
+              - smartico-demo
+        # The iOS OAuth client (registered for bundle id ai.smartico.rnexpo).
+        GIDClientID: 259966498344-e797rqpem16mg72kelqp3bugs49k53vh.apps.googleusercontent.com
+        # The WEB client: the backend verifies the id_token's `aud` against it.
+        GIDServerClientID: 259966498344-spl923rp3lgokku9km7jckaj5s8ndin8.apps.googleusercontent.com
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: ai.smartico.rnexpo
+        PRODUCT_NAME: SmarticoDemo
+        TARGETED_DEVICE_FAMILY: "1"
+        SWIFT_VERSION: "5.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        ENABLE_PREVIEWS: YES
+        # No Apple Developer team on this machine: simulator builds are signed
+        # ad hoc ("Sign to Run Locally"). Set DEVELOPMENT_TEAM (and drop the
+        # identity override) to run on a device.
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: ""
+        "CODE_SIGN_IDENTITY[sdk=iphonesimulator*]": "-"
+        # The push entitlement is applied to SIMULATOR builds only. A free
+        # Personal Team cannot sign aps-environment, and real APNs delivery
+        # needs a paid team plus an APNs key anyway — so a device build from a
+        # free Apple ID just runs, with push registration failing gracefully.
+        # With a paid team, add the same path under [sdk=iphoneos*] (or drop
+        # the condition) to get the entitlement onto devices.
+        "CODE_SIGN_ENTITLEMENTS[sdk=iphonesimulator*]": SmarticoDemo/Resources/SmarticoDemo.entitlements

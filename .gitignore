@@ -1,0 +1,11 @@
+# Xcode build output (xcodebuild -derivedDataPath build, screenshots, zips)
+build/
+DerivedData/
+
+# Per-user Xcode state
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
