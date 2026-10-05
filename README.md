@@ -1,6 +1,7 @@
 # Smartico Swift demo
 
-<!-- video: drop the demo recording's user-attachments URL here -->
+
+https://github.com/user-attachments/assets/bc95b9ae-1c96-44dc-b5b3-a2fbb2357fec
 
 **A showcase of building a fully custom, native gamification UI on top of the
 Smartico API.**
